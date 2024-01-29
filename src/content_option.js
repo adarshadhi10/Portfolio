@@ -1,23 +1,23 @@
 const logotext = "Portfolio";
 const meta = {
     title: "Portfolio | Adarsh.K",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "Graduate in BE , Computer Science and Engineering.",
 };
 
 const introdata = {
     title: "I’m Adarsh.K",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I am a Full Stack web developer",
+        second: "I develop responsive and dynamic websites",
+        third: "I develop mobile applications",
     },
-    description: "Graduate in BE , Computer Science and Engineering",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "I am a graduate completed my BE in Department of Computer science and engineering, looking for opportunities to work where I can start my career as an IT professional.",
+    your_img_url: "https://www.simplilearn.com/ice9/free_resources_article_thumb/full_stack_banner.jpg",
 };
 
 const dataabout = {
     title: "About my self",
-    aboutme: "I'm currently working as an SET (Software Engineer Traineee) at i-Exceed.",
+    aboutme: "I'm currently working as an SET (Software Engineer Trainee) at i-Exceed, in Full stack web developer role",
 };
 const worktimeline = [{
         jobtitle: "Intern",
@@ -36,45 +36,47 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
+const skills = [
+    {
+    name: "HTML5",
+    value : proficient,},
+
+   {name: "CSS3",
+   value : proficient,} ,
+
+    {name: "Javascript ES6+",
+    value : proficient,},
+
+    {name: "Java8",
+    value : proficient,
+},   
+{
+    name: "React",
+    value: proficient,
+},   
+{
         name: "Python",
-        value: 90,
+        value: proficient,
     },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
+   ];
 
 const services = [{
         title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Developing and managing efficient web pages suing latest web technologies.",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "Developing and managing efficient web and mobile apps.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Full stack web development",
+        description: "Developing and managing efficient dynamic and responsive web sites.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://github.com/adarshadhi10/bankingtask1",
+        description: "This is a internship project made using web technologies like HTML, CSS, JS, MYSQL.",
         link: "#",
     },
     {
