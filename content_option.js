@@ -61,7 +61,7 @@ const skills = [
    ];
 
 const services = [{
-        title: "UI & UX Design",
+        title: "UI Design and development",
         description: "Developing and managing efficient web pages suing latest web technologies.",
     },
     {
